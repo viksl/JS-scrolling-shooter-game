@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>BoxBox</title>
+
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		
+		html, body {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			display: block;
+		}
+		
+		#gameDiv {
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			transform:translate(-50%, -50%);
+			-webkit-transform:translate(-50%, -50%);
+			-moz-transform:translate(-50%, -50%);
+			-o-transform:translate(-50%, -50%);
+			-ms-transform:translate(-50%, -50%);
+			
+		}
+	</style>
+	
+	</head>
+	
+	<body>
+		<div id="gameDiv">
+			<canvas id="bg"></canvas>
+			<canvas id="main"></canvas>
+			<canvas id="fg"></canvas>
+		</div>
+		<script type="text/javascript" src="js.js"></script>
+		<!-- <script src="http://jsconsole.com/remote.js?C23693AA-D05C-4551-8E94-6A8B3F44609A"></script> -->
+
+	</body>
+	
+</html>
